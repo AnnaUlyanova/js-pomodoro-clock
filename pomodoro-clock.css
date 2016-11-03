@@ -1,0 +1,50 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  margin-top: 5%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 5em;
+}
+
+h5 {
+  font-size: 2em;
+}
+
+#date-now, #time-now {
+  font-size: 1.2em;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.pomodoro {
+  text-align: center;
+}
+
+#timer {
+  padding-bottom: 15px;
+  font-size: 3em;
+}
+
+footer {
+  /*margin: auto 0;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  /*width: 100%;*/
+  color: black;
+}

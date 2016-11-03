@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+      <title>Pomodoro Clock</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="pomodoro-clock.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class=" twelve columns header">
+      <h3>JavaScript Timer</h3>
+    </div>
+  </div>
+    <div class="row">
+      <div class="three columns current-time">
+        <h5>Current time</h5>
+        <span id="date-now"></span>
+        <span id="time-now"></span>
+      </div>
+
+      <div class = "seven columns offset-by-two pomodoro">
+        <h5>Pomodoro Clock</h5>
+
+        <div id="timer">
+          <span id="minutes">25</span>
+          <span id="separator">:</span>
+          <span id="seconds">00</span>
+        </div>
+
+        <div id="buttons">
+          <button id="start">Start</button>
+          <button id="stop">Stop</button>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+  </div>
+<div class="row">
+  <div class=" eight columns offset-by-five">
+<footer>by <a href="https://github.com/AnnaUlyanova">Anna Ulyanova</a></footer>
+  </div>
+</div>
+</div>
+<script type="text/javascript" src="pomodoro-clock.js"></script>
+  </body>
+</html>
